@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Holden's Psychiatric Disorders</title>
+    <link rel="shortcut icon" href="https://s-media-cache-ak0.pinimg.com/custom_covers/30x30/425660670970063323_1452963350.jpg">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!--CSS Style Sheet -->
+    <link rel="stylesheet" href="slideanim.css" type="text/css">
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+   
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 900, function() {
+                    window.location.hash = hash;
+                });
+            });
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 950) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+
+        });
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar transparent navbar-default navbar-fixed-bottom">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand pillz " href="#home"> Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav pillz">
+                    <li><a href="#fs1">Narcissistic Personality</a></li>
+                    <li><a href="#fs2">Bipolar</a></li>
+                    <li><a href="#fs3">Major Depression</a></li>
+                    <li><a href="#fs4">Autism</a></li>
+                    <li><a href="#section">References </a></li>
+                </ul>
+
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!--HOME -->
+
+    <div class="full-w full-h" id="home">
+        <div class="text-center headd">
+            <h1 class="transparentH">Catcher In The Rye:<br> Holden's Psychiatric Disorders</h1>
+        </div>
+    </div>
+
+    <!--NPD -->
+
+    <div class="full-w full-h" id="fs1">
+        <h2>Narcissistic Personality Disorder</h2>
+        <ul>
+            <li>Definition
+                <ul>
+                    <li>“Narcissistic Personality Disorder, or NPD, is one of a cluster of Personality Disorders that includes border-line personality disorder, antisocial personality disorder and histrionic personality disorder, in which people often display
+                        a character of self-obsession, egotistic, and hubris</li>
+                </ul>
+            </li>
+            <li> Possible causes: Unknown </Li>
+            <ul>
+                It is not known what causes NPD because the cause can likely be complex, but it can be linked to:
+
+                <li>Mismatches in parent-child relationships with either excessive pampering or excessive criticism</li>
+                <li>Genetics or psychobiology — the connection between the brain and behavior and thinking</li>
+            </ul>
+            <li>Symptoms:
+                <ul>
+                    <li>Having an exaggerated sense of self-importance</li>
+                    <li>Expecting to be recognized as superior even without achievements that warrant it</li>
+                    <li>Exaggerating your achievements and talents</li>
+                    <li>Being preoccupied with fantasies about success, power, brilliance, beauty or the perfect mate
+                    </li>
+                    <li>Believing that you are superior and can only be understood by or associate with equally special people
+                    </li>
+                    <li>Taking advantage of others to get what you want
+                    </li>
+                    <li>Having an inability or unwillingness to recognize the needs and feelings of others
+                    </li>
+                    <li>
+                        Being envious of others and believing others envy you
+
+                    </li>
+                    <li>Behaving in an arrogant or haughty manner
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Treatment
+                <ul>
+                    <li>Physcotherapy</li>
+                    <li>Hospitalization</li>
+                    <li>No Medications</li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <br>
+
+        <div class="section text-center ">
+
+            <h3 class="slideanim">“He’s so good he’s almost corny, in fact. I don’t exactly know what I mean by that, but I meant it. I certainly like to hear him play, but sometimes you feel like turning his goddam piano over. I think it’s because sometimes when he plays, he sounds like the kind of guy that won’t talk to you unless you’re a big shot” </h3>
+            <footer class="slideanim">pg (80)</footer>
+
+            <h3 class="slideanim">“I believe the issue is not so much Holden’s anger and melancholy ... but I repeat, the narcissism—that’s the key: what in our profession we’d call a ‘narcissistic personality disorder.’He’s quick to turn on others, and he gives no one the benefit of the doubt, and he’s always bringing everything back to himself (‘self-referential’ as we’d say in a clinical conference).”</h3>
+            <footer class="slideanim"> (Anna Freud)</footer>
+
+            <h3 class="slideanim">“One of my troubles is, I never care too much when I lose something-it used to drive my mother crazy when i was a kid”</h3>
+            <footer class="slideanim">pg (89)</footer>
+
+        </div>
+    </div>
+
+    <!--BIPOLAR-->
+
+    <div class="full-w full-h" id="fs2">
+
+        <h2>Bipolar Disorder</h2>
+        <ul>
+            <li>Definition
+                <ul>
+                    <li>also called manic-depressive disorder - episodes of unpredictable mood swings, ranging from depressive lows to manic, uncontrollable highs.</li>
+                </ul>
+            </li>
+            <li> Possible causes </Li>
+            <ul>
+                <li>consists of the person’s natural state: possibly inherited traits, imbalance in brain chemicals or, stimuli from environment.</li>
+            </ul> would consist of the person’s natural state: possibly inherited traits, imbalance in brain chemicals or, stimuli from environment.
+            <li>Symptoms:
+                <ul>
+                    <li>Inflated self-esteem or grandiosity</li>
+                    <li>Decreased need for sleep (for example, you feel rested after only three hours of sleep), etc.</li>
+                    <li>Depressed mood most of the day, nearly every day, such as feeling sad, empty, hopeless or tearful (in children and teens, depressed mood can appear as irritability)</li>
+                    <li>Markedly reduced interest or feeling no pleasure in all — or almost all — activities most of the day, nearly every day</li>
+                    <li>Distractibility, No composure</li>
+                    <li>Increased goal-directed activity (either socially, at work or school, or sexually) or agitation</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Treatment
+                <ul>
+                    <li>Antidepressants, medical drugs</li>
+                    <li>Hospitalization</li>
+                    <li>Multiple sessions of therapy</li>
+                </ul>
+            </li>
+        </ul>
+        <br>
+        <br>
+
+        <div class="section text-center">
+
+            <h3 class="slideanim">“I was only thirteen, and they were going to have me psychoanalyzed and all, because I broke all the windows in the garage” → “I broke all the goddam windows with my fist, just for the hell of it” </h3>
+            <footer class="slideanim">pg (39)</footer>
+
+            <h3 class="slideanim">After fighting Stradlater, “ I’d only been in about two fights in my life, and I lost both of them. I’m not too tough. I’m a pacifist , If you want to know the truth” </h3>
+            <footer class="slideanim">pg (45-46)</footer>
+            <h3 class="slideanim">“I was so damn worried, that’s why. When I really worry about something, I don’t just fool around. I even have to go to the bathroom when I worry about something. Only, I don’t go. I’m too worried to go. I don’t want to interpret my worrying
+                to go. If you knew Stradlater, you’d have been worried, too.”</h3>
+            <footer class="slideanim">pg (40)</footer>
+
+        </div>
+    </div>
+
+    <!--SCHITZOOOSKOKSOOFAKSAS / MAJORDEPRESSION -->
+
+    <div class="full-w full-h" id="fs3">
+        <h2>Major Depression</h2>
+        <ul>
+            <li>Definition
+                <ul>
+                    <li>Mood disorder that causes constant sadness and loss of interest.</li>
+                </ul>
+            </li>
+            <li>Causes</li>
+            <ul>
+                <li>Chemical imbalance in the brain and stressful life events
+                    <div class="section text-center">
+                        <h3 class="slideanim">“I was only thirteen, and they were going to have me psychoanalyzed and all, because I broke all the windows in the garage... I broke all the goddam windows with my fist, just for the hell of it.” </h3>
+                        <footer class="slideanim">pg (39)</footer>
+                    </div>
+                </li>
+            </ul>
+            <li>Symptoms:
+                <ul>
+                    <li>Mood: anxiety, guilt, hopelessness, inability to feel pleasure, loss of interest, mood swings, or sadness</li>
+                    <li>Sleep: odd sleeping habits, insomnia</li>
+                    <li>Whole body: excessive hunger, fatigue, loss of appetite, or restlessness, poor appetite</li>
+                    <li>Weight: gain or loss</li>
+                    <li>Behavior: agitation, excessive crying, easily irritated, or social isolation</li>
+                    <li>Comprehension: lack of concentration, thoughts of suicide, repeatedly going over thoughts</li>
+                </ul>
+
+                <div class="section text-center">
+                    <h3 class="slideanim">“I was feeling sort of lousy. Depressed and all. I almost wished I was dead.”</h3>
+                    <footer class="slideanim">pg (90)</footer>
+                </div>
+
+            </li>
+            <li>Treatment:</li>
+            <ul>
+                <li>Therapy</li>
+                <li>Medications</li>
+            </ul>
+
+        </ul>
+    </div>
+
+    <!-- AUTISM-->
+
+    <div class="full-w full-h" id="fs4">
+        <h2>Autism:</h2>
+        <ul>
+            <li>Definition
+                <ul>
+                    <li>full term is Autism spectrum disorder</li>
+                    <li>disorder that involves the brain development and the social life of a person</li>
+                    <li>common in premature births</li>
+                </ul>
+            </li>
+            <li> Possible causes:</Li>
+            <ul>
+                <li>develops from genes and environmental factors which influences the brain</li>
+                <li>deprivation of oxygen during pregnancy</li>
+            </ul>
+            <li>Symptoms:
+                <ul>
+                    <li>having difficulties with social interactions/ communication</li>
+                    <li>disengaging from social engagements</li>
+                    <li>repetitive behaviors</li>
+                    <li>having trouble understanding others/ portraying oneself</li>
+                    <li>lack of eye contact</li>
+                </ul>
+            </li>
+        </ul>
+        <ul>
+            <li>Treatment
+                <ul>
+                    <li>taking prenatal vitamins with folic acid/ consuming lots of folic acid during pregnancy</li>
+                    <li>having training sessions/ counseling</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="section text-center">
+
+            <h3 class="slideanim">“The first thing I did when I got off at Penn Station, I went into this phone booth. I felt like giving somebody a buzz [...] but as soon as I was inside, I couldn’t think of anybody to call up”</h3>
+            <footer class="slideanim">pg (59)</footer>
+            <h3 class="slideanim">“I’d rather push a guy out the window or chop his head off with an axe than sock him in the jaw. I hate fist fights. I don’t mind getting hit so much-although I’m not crazy about it, naturally-but what scares me most in a fist fight
+                        is the guy’s face, is my trouble”</h3>
+            <footer class="slideanim">pg (90)</footer>
+        </div>
+
+
+    </div>
+
+    <!-- DISCUSSIOM -->
+
+    <div id="sectionD" class="section text-center">
+        <h2 class="slideanim">Discussion Question:</h2>
+        <h3 class="slideanim">With the information provided, is it possible that Holden isn't suffering from any disorders?</h3>
+    </div>
+
+
+
+
+    <!--REFRENCES -->
+
+    <div id="section" class="section text-center">
+        <h2 class="slideanim">References:</h2>
+
+        <a href=http://www.bipolarcentral.com/otherillnesses/npd.php target="_blank">Bipolar central</a>
+        <br>
+        <a href=http://www.mayoclinic.org/diseases-conditions/narcissistic-personality-disorder/basics/definition/con-20025568 target="_blank"> Mayo Clinic</a>
+        <br>
+        <a href=https://www.nimh.nih.gov/health/topics/depression/index.shtml target="_blank">National Institute of Mental Health</a>
+        <br>
+        <a href=https://www.autismspeaks.org/what-autism target="_blank">Autism Speaks</a>
+        <br>
+        <a href=http://www.vqronline.org/essay/anna-freud-and-jd-salinger%E2%80%99s-holden-caulfield target="_blank">VQR Online</a>
+    </div>
+
+    <!-- -->
+
+</body>
+
+</html>
